@@ -1,9 +1,40 @@
 .homepage {
-  background-image: url('/home_page_car.jpeg');
   background-size: 800px;
-  background-repeat: no-repeat;
-  background-position: right;
+
   width: 100vw;
   height: 100vh;
   background-color: black;
+}
+
+.car {
+  background-image: url('/home_page_car.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  animation-name: fadein, grow;
+  animation-duration: 5s, 20s;
+  animation-timing-function: ease-out, linear;
+  animation-fill-mode: forwards, forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes grow {
+  from {
+    background-size: 800px;
+  }
+  to {
+    background-size: 900px;
+  }
 }
