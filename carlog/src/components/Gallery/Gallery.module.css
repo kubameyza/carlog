@@ -1,0 +1,14 @@
+.gallery_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100vw;
+  margin-top: 4rem;
+  padding: 6rem;
+  justify-items: stretch;
+  gap: 10px;
+}
+
+.gallery_element {
+  display: flex;
+  max-height: 300px;
+}

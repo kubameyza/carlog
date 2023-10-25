@@ -16,7 +16,7 @@
   top: 0px;
   right: 0px;
   animation-name: fadein, grow;
-  animation-duration: 5s, 20s;
+  animation-duration: 5s, 25s;
   animation-timing-function: ease-out, linear;
   animation-fill-mode: forwards, forwards;
 }
