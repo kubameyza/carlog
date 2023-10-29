@@ -1,4 +1,5 @@
 import styles from './Gallery.module.css';
+import GalleryElement from './GalleryElement/GalleryElement';
 
 const images = [
   '/pic_1.png',
@@ -13,12 +14,7 @@ const Gallery = () => {
   return (
     <div className={styles.gallery_wrapper}>
       {images.map((image, idx) => (
-        <img
-          className={styles.gallery_element}
-          key={idx}
-          src={image}
-          alt="auto detailing"
-        />
+        <GalleryElement key={idx} src={image} alt="auto detailing" />
       ))}
     </div>
   );
