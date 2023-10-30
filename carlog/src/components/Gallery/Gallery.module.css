@@ -1,20 +1,49 @@
 .gallery_wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
-  /* grid-template-areas:
-    '. gallery_item gallery_item gallery_item .'
-    '. gallery_item gallery_item gallery_item .'; */
-  /* grid-auto-rows: 300px; */
+  grid-template-columns: 1fr 1fr 1fr;
   width: 100vw;
   margin-top: 4rem;
   padding: 6rem;
-  justify-items: stretch;
   justify-content: center;
   gap: 10px;
-  transition: all 0.25s ease-out;
+  transition: all 0.25s;
+}
+
+.gallery_wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: all 0.25s;
+}
+
+.gallery_wrapper:has(img:nth-child(1):hover) {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.gallery_wrapper:has(img:nth-child(2):hover) {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.gallery_wrapper:has(img:nth-child(3):hover) {
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.gallery_wrapper:has(img:nth-child(4):hover) {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.gallery_wrapper:has(img:nth-child(5):hover) {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.gallery_wrapper:has(img:nth-child(6):hover) {
+  grid-template-columns: 1fr 1fr 2fr;
 }
 
 .gallery_wrapper img:hover {
-  box-shadow: inset 0 0 99999px rgba(0, 120, 255, 0.5);
-  cursor: pointer;
+  scale: 1.2;
+  border-radius: 12px;
+  z-index: 2;
+  box-shadow: 0 0 50px 20px;
 }
