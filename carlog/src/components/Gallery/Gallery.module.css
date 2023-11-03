@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   width: 100vw;
   margin-top: 4rem;
-  padding: 6rem;
+  padding: 8rem 12rem;
   justify-content: center;
   gap: 10px;
   transition: all 0.25s;
@@ -17,7 +17,7 @@
   transition: all 0.25s;
 }
 
-.gallery_wrapper:has(img:nth-child(1):hover) {
+/* .gallery_wrapper:has(img:nth-child(1):hover) {
   grid-template-columns: 2fr 1fr 1fr;
 }
 
@@ -39,10 +39,10 @@
 
 .gallery_wrapper:has(img:nth-child(6):hover) {
   grid-template-columns: 1fr 1fr 2fr;
-}
+} */
 
 .gallery_wrapper img:hover {
-  scale: 1.2;
+  scale: 1.8;
   border-radius: 12px;
   z-index: 2;
   box-shadow: 0 0 50px 20px;

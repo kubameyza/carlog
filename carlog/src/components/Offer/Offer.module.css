@@ -1,0 +1,57 @@
+.offer_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.offer {
+  background-image: url('/concrete.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 200px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  padding: 4rem;
+}
+
+.description {
+  width: 40%;
+  text-align: left;
+}
+
+.offer ul {
+  list-style: none;
+  width: 80%;
+  margin: auto;
+}
+
+.offer h2 {
+  padding: 2rem;
+}
+
+.offer h3 {
+  padding: 2rem 0;
+  text-align: left;
+}
+
+.price_list_item {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.dot_line {
+  width: 100%;
+  height: 1px;
+  border-top: 1px dashed white;
+  margin-left: 4rem;
+}
+
+.description_section {
+  display: flex;
+  justify-content: space-between;
+}
