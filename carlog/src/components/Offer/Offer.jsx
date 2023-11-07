@@ -34,7 +34,7 @@ const priceListData = [
   },
   {
     title: 'Powłoka ochronna',
-    description: 'Ttardy wosk',
+    description: 'Twardy wosk',
     price: '150',
   },
   {
@@ -64,7 +64,7 @@ const priceListData = [
 
 const Offer = () => {
   return (
-    <div className={styles.offer_wrapper}>
+    <div id="offer" className={styles.offer_wrapper}>
       <div className={styles.offer}>
         <h2>CENNIK</h2>
         <ul>
@@ -76,7 +76,7 @@ const Offer = () => {
                   <p className={styles.description}>{item.description}</p>
                   <div className={styles.dot_line}></div>
                 </div>
-                <p>{item.price}</p>
+                <p className={styles.price}>{item.price}</p>
               </div>
             </li>
           ))}

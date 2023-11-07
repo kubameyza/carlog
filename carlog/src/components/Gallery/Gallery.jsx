@@ -12,7 +12,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div className={styles.gallery_wrapper}>
+    <div id="gallery" className={styles.gallery_wrapper}>
       {images.map((image, idx) => (
         <GalleryElement key={idx} src={image} alt="auto detailing" />
       ))}

@@ -6,10 +6,10 @@ const Navbar = () => {
       <a className={styles.nav_item} href="">
         O nas
       </a>
-      <a className={styles.nav_item} href="">
+      <a className={styles.nav_item} href="#gallery">
         Galeria
       </a>
-      <a className={styles.nav_item} href="">
+      <a className={styles.nav_item} href="#offer">
         Cennik
       </a>
     </div>
