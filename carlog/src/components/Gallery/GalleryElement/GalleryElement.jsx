@@ -1,4 +1,4 @@
-const GalleryElement = ({ src, alt }) => {
-  return <img src={src} alt={alt} />;
+const GalleryElement = ({ src, alt, onClick }) => {
+  return <img src={src} alt={alt} onClick={(e) => onClick(e)} />;
 };
 export default GalleryElement;
