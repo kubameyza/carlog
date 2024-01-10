@@ -34,7 +34,7 @@ const ImagesGallery = ({ index }) => {
       items={images}
       showPlayButton={false}
       showFullscreenButton={false}
-      // startIndex={index}
+      startIndex={index}
     />
   );
 };

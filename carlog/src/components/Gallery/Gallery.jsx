@@ -12,17 +12,18 @@ const images = [
   '/pic_6.png',
 ];
 
-const getIndex = (item) => {
-  const index = item.target.getAttribute('src');
-  return images.indexOf(index);
-};
-
 const Gallery = () => {
   const [expandGallery, setExpandGallery] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const getIndex = (item) => {
+    const index = item.target.getAttribute('src');
+    setIndex(images.indexOf(index));
+  };
 
   const handleClick = (e) => {
     setExpandGallery(!expandGallery);
-    return getIndex(e);
+    getIndex(e);
   };
 
   const galleryRef = useRef();
@@ -49,7 +50,7 @@ const Gallery = () => {
     </div>
   ) : (
     <div ref={galleryRef}>
-      <ImagesGallery index={(e) => handleClick(e)} />
+      <ImagesGallery index={index} />
     </div>
   );
 };
