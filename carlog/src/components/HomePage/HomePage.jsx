@@ -1,3 +1,4 @@
+import Counters from '../Counters/Counters';
 import Gallery from '../Gallery/Gallery';
 import Header from '../Header/Header';
 import Headline from '../Headline/Headline';
@@ -12,6 +13,7 @@ const HomePage = () => {
         <Header />
         <Headline />
       </div>
+      <Counters />
       <Gallery />
       <Offer />
     </>

@@ -1,0 +1,32 @@
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: sans-serif;
+  animation: fadeIn 2s;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.number {
+  font-size: 5rem;
+  padding: 2rem;
+}
+
+.counter h2 {
+  color: rgba(255, 255, 255, 0.412);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
