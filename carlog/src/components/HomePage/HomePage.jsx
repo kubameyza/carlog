@@ -10,7 +10,6 @@ const HomePage = () => {
     <>
       <div className={styles.homepage}>
         <div className={styles.car}></div>
-        <Header />
         <Headline />
       </div>
       <Counters />

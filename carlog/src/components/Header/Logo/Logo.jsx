@@ -1,14 +1,11 @@
+import { Link } from 'react-router-dom';
 import styles from './Logo.module.css';
 
 const Logo = () => {
-  const handleClick = () => {
-    console.log('hej');
-  };
-
   return (
-    <div onClick={handleClick} className={styles.logo}>
+    <Link to="home" className={styles.logo}>
       autokosmetyka
-    </div>
+    </Link>
   );
 };
 export default Logo;

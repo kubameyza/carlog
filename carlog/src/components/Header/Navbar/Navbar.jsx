@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
@@ -12,6 +13,9 @@ const Navbar = () => {
       <a className={styles.nav_item} href="#offer">
         Cennik
       </a>
+      <Link className={styles.nav_item} to="contact">
+        Kontakt
+      </Link>
     </div>
   );
 };
