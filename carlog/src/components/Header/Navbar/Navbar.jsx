@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   return (
@@ -7,12 +8,12 @@ const Navbar = () => {
       <a className={styles.nav_item} href="">
         O nas
       </a>
-      <a className={styles.nav_item} href="#gallery">
+      <HashLink to="home#gallery" className={styles.nav_item}>
         Galeria
-      </a>
-      <a className={styles.nav_item} href="#offer">
+      </HashLink>
+      <HashLink className={styles.nav_item} to="home#offer">
         Cennik
-      </a>
+      </HashLink>
       <Link className={styles.nav_item} to="contact">
         Kontakt
       </Link>
