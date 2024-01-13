@@ -22,3 +22,9 @@
   font-size: 1.4rem;
   cursor: pointer;
 }
+
+.form {
+  width: 100;
+  display: flex;
+  justify-content: flex-end;
+}
