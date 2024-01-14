@@ -9,7 +9,7 @@
 
 .field,
 .big_field {
-  background-color: rgba(128, 128, 128, 0.585);
+  background-color: rgba(128, 128, 128, 0.291);
   font-size: 1.5rem;
   border: none;
   color: white;
@@ -27,6 +27,7 @@
 .big_field {
   width: 100%;
   min-height: 200px;
+  text-align: top;
 }
 
 .field::placeholder,
@@ -35,4 +36,23 @@
   top: 10px;
   left: 10px;
   color: white;
+  font-family: sans-serif;
+}
+
+.button_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  width: 300px;
+  height: 80px;
+  background-color: rgba(128, 128, 128, 0.585);
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  cursor: pointer;
+  align-self: normal;
 }

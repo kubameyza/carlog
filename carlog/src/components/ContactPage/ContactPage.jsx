@@ -10,9 +10,11 @@ const ContactPage = () => {
           Po zapoznaniu się z Państwa oczekiwaniami oraz oszacowaniu zakresu
           prac natychmiast otrzymają Państwo wycenę
         </p>
-        <button>Zarezerwuj termin</button>
+        <a className={style.button} href="#form">
+          Zarezerwuj termin
+        </a>
       </div>
-      <div className={style.form}>
+      <div id="form" className={style.form}>
         <ContactForm />
       </div>
     </>

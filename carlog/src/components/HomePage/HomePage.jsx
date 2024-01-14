@@ -8,7 +8,12 @@ const HomePage = () => {
   return (
     <>
       <div className={styles.homepage}>
-        <div className={styles.car}></div>
+        <div className={styles.car}>
+          <div className={styles.lights}>
+            <div className={styles.big_circle}></div>
+            <div className={styles.small_circle}></div>
+          </div>
+        </div>
         <Headline />
       </div>
       <Counters />
