@@ -1,4 +1,5 @@
 import ContactForm from '../ContactForm/ContactForm';
+import ContactLinks from '../ContactForm/ContactLinks/ContactLinks';
 import style from './ContactPage.module.css';
 
 const ContactPage = () => {
@@ -14,7 +15,9 @@ const ContactPage = () => {
           Zarezerwuj termin
         </a>
       </div>
+
       <div id="form" className={style.form}>
+        <ContactLinks />
         <ContactForm />
       </div>
     </>

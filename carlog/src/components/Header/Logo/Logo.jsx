@@ -4,7 +4,7 @@ import styles from './Logo.module.css';
 const Logo = () => {
   return (
     <Link to="home" className={styles.logo}>
-      autokosmetyka
+      Auto Glanz
     </Link>
   );
 };
