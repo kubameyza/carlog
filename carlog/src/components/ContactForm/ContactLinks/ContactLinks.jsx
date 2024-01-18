@@ -14,17 +14,27 @@ const ContactLinks = () => {
     >
       <div className={style.wrapper}>
         <ul className={style.links_list}>
-          <li className={style.link}>
-            <FaPhoneAlt className={style.icon} />
-            <div className={style.link_text}>123 456 789</div>
+          <li>
+            <a className={style.link} href="tel:123456789">
+              <FaPhoneAlt className={style.icon} />
+              <div className={style.link_text}>123 456 789</div>
+            </a>
           </li>
-          <li className={style.link}>
-            <FaEnvelope />
-            <div className={style.link_text}>autoglanz@gmial.com</div>
+          <li>
+            <a className={style.link} href="mailto:autoglanz@gmail.com">
+              <FaEnvelope />
+              <div className={style.link_text}>autoglanz@gmail.com</div>
+            </a>
           </li>
-          <li className={style.link}>
-            <FaMapMarkerAlt />
-            <div className={style.link_text}>Niebieska 1, 81-115 Gdynia</div>
+          <li>
+            <a
+              className={style.link}
+              href="https://maps.app.goo.gl/yrLMZ1G4UWju8NGg8"
+              target="blank"
+            >
+              <FaMapMarkerAlt />
+              <div className={style.link_text}>Niebieska 1, 81-115 Gdynia</div>
+            </a>
           </li>
           <li className={style.link}>
             <FaClock />
