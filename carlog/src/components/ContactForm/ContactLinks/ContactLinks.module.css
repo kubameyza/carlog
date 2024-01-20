@@ -10,4 +10,9 @@
 .link_text {
   color: white;
   padding: 1rem;
+  transition: color 0.3s;
+}
+
+.link_text:hover {
+  color: rgb(255, 0, 0);
 }
