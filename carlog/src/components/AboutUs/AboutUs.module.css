@@ -1,0 +1,25 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+  padding: 1rem 5rem 0 5rem;
+  font-weight: 300;
+}
+
+.header {
+  color: white;
+  padding-left: 6rem;
+  font-family: sans-serif;
+}
+
+.paragraph {
+  padding: 0 2rem 0 2rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.paragraph_section {
+  width: 50%;
+}
