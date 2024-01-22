@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.wrapper {
+  overflow: hidden;
+}
+
 .car {
   background-image: url('/home_page_car.png');
   background-repeat: no-repeat;
