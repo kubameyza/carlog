@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100vw;
-  margin-top: 4rem;
-  padding: 8rem 12rem;
+  padding: 4rem 12rem;
   justify-content: center;
   gap: 10px;
   transition: all 0.25s;

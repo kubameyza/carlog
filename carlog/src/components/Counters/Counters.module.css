@@ -5,6 +5,7 @@
   color: white;
   font-family: sans-serif;
   animation: fadeIn 2s;
+  padding: 2rem;
 }
 
 .counter {

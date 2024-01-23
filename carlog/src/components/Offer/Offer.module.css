@@ -16,6 +16,7 @@
   text-align: center;
   padding: 4rem;
   box-shadow: inset 0px 20px 14px 0px black;
+  margin-top: 2rem;
 }
 
 .offer::after {

@@ -29,7 +29,7 @@
 .lights {
   position: absolute;
   display: flex;
-  top: 533px;
+  top: 493px;
   right: 405px;
   animation-name: fadein;
   animation-duration: 5s;

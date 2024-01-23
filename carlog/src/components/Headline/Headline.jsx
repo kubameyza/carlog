@@ -5,7 +5,9 @@ const Headline = () => {
     <div className={styles.headline}>
       Wkładamy całe serce, aby na nowo odnaleźć ukryte piękno Twojego samochodu.
       <p>Twoje auto na to zasługuje.</p>
-      <button className={styles.main_button}>Sprawdź teraz</button>
+      <a href="#gallery" className={styles.main_button}>
+        Sprawdź teraz
+      </a>
     </div>
   );
 };
