@@ -35,7 +35,7 @@ const priceListData = [
   {
     title: 'Powłoka ochronna',
     description: 'Twardy wosk',
-    price: '150',
+    price: '150 zł',
   },
   {
     description: 'Ceramika 2 letnia',
@@ -44,21 +44,21 @@ const priceListData = [
 
   {
     description: 'Powłoka 4 lenia',
-    price: '2500zł',
+    price: '2500 zł',
   },
 
   {
     title: 'Korekta lakieru',
     description: 'Jednostopniowa korekta lakieru',
-    price: '700',
+    price: '700 zł',
   },
   {
     description: 'Dwuetapowa korekta lakieru',
-    price: '1000',
+    price: '1000 zł',
   },
   {
     description: 'Pełna korekta lakieru',
-    price: '1500',
+    price: '1500 zł',
   },
 ];
 
