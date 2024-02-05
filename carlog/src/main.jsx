@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout.jsx';
@@ -14,15 +13,15 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: 'home',
+        path: '/',
         element: <HomePage />,
       },
       {
-        path: 'contact',
+        path: '/contact',
         element: <ContactPage />,
       },
       {
-        path: 'about',
+        path: '/about',
         element: <AboutUs />,
       },
     ],

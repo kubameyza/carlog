@@ -6,6 +6,9 @@
   align-items: center;
   text-decoration: none;
 }
+.links_list {
+  list-style: none;
+}
 
 .link_text {
   color: white;

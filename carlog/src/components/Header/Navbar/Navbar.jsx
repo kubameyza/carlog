@@ -12,10 +12,10 @@ const Navbar = () => {
       >
         O nas
       </NavHashLink>
-      <NavHashLink to="/home/#gallery" className={styles.nav_item}>
+      <NavHashLink to="/#gallery" className={styles.nav_item}>
         Galeria
       </NavHashLink>
-      <NavHashLink className={styles.nav_item} to="/home/#offer">
+      <NavHashLink className={styles.nav_item} to="/#offer">
         Cennik
       </NavHashLink>
       <NavHashLink

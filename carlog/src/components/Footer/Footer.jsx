@@ -7,8 +7,8 @@ const Footer = () => {
       <div className={styles.footer_section}>
         <h3>Na skróty</h3>
         <NavHashLink to="/about">O nas</NavHashLink>
-        <NavHashLink to="home/#offer">Cennik</NavHashLink>
-        <NavHashLink to="home/#gallery">Galeria</NavHashLink>
+        <NavHashLink to="/#offer">Cennik</NavHashLink>
+        <NavHashLink to="/#gallery">Galeria</NavHashLink>
       </div>
       <div className={styles.footer_section}>
         <h3>Adres</h3>

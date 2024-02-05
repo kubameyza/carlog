@@ -17,14 +17,14 @@ const Scroller = () => {
     <div className={styles.wrapper}>
       <ul className={styles.scroller}>
         {services.map((item) => (
-          <li className={styles.scroller_element} key={nanoid}>
+          <li className={styles.scroller_element} key={nanoid()}>
             {item}
           </li>
         ))}
       </ul>
       <ul className={styles.scroller}>
         {services.map((item) => (
-          <li className={styles.scroller_element} key={nanoid}>
+          <li className={styles.scroller_element} key={nanoid()}>
             {item}
           </li>
         ))}

@@ -3,7 +3,7 @@ import styles from './Logo.module.css';
 
 const Logo = () => {
   return (
-    <Link to="home" className={styles.logo}>
+    <Link to="/" className={styles.logo}>
       Auto Glanz
     </Link>
   );
