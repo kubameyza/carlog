@@ -1,1 +1,57 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border 0.18s linear;
+}
+
+.service:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.service_icon {
+  height: 140px;
+  margin-top: 1rem;
+}
+
+.service h3 {
+  text-align: center;
+  width: 200px;
+  margin-top: 1rem;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-size: 1.8rem;
+  padding: 2rem;
+  width: 65%;
+  animation: fadein 0.5s linear;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
