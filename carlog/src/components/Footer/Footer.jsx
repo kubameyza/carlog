@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className={styles.footer_section}>
           <h3>Kontakt</h3>
-          <a href="tel:123 456 789">Telefon:123 456 789</a>
+          <a href="tel:123 456 789">Telefon: 123 456 789</a>
           <a href="mailto:autoglanz@gmail.com">Email: autoglanz@gmail.com</a>
         </div>
         <a

@@ -17,6 +17,7 @@
 
 .field {
   width: 48%;
+  flex-grow: 1;
   min-height: 3rem;
   padding-left: 1rem;
 }
